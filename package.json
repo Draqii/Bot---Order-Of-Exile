@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "discord.js": "^14.15.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "ts-node src/Bot.ts",
+    "register": "ts-node src/Register.ts",
+    "delete": "ts-node src/Delete.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
